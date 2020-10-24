@@ -60,4 +60,96 @@
 	padding: 10%;
 }
 
-
+/* Vista de Login y Registro */
+.fondo {
+	background: url("../img/registro.jpg")center no-repeat;
+	background-size: cover;
+	height: 100%; 
+}
+/* opacidad al fondo de la vista registro */
+.fondo:before {
+	content:'';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+}
+/* Tamaño y ajuste del titulo de la vista registro */
+.titulo {
+	padding-bottom: 10%;
+	font-size: 20px;
+	position: relative;
+}
+/* Espacio superior del contenedor general */
+.container {
+	padding-top: 27%;
+}
+/* Tamaño de la letra */
+.info span{
+	position: relative;
+	font-size: 15px;
+}
+/* Estilo de los input´s */
+.input {
+	/* letra de la vista login y registro */
+	font-family: 'Manrope', sans-serif;
+	font-size: 18px;
+	width: 100%;
+	border: 0;
+	border-bottom: 1px solid gray !important;
+	outline: none;
+	font-size: 20px !important;
+	color: #ffff !important;
+	background: transparent;
+	position: relative !important;
+	}
+	.mail {
+		padding-top: 5% !important;
+	}
+	/* Boton para guardar datos */
+	.boton {
+		font-size: 16px;
+		font-weight: bolder;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 16px;
+		position: relative;
+		background-color: #eb4559;
+		width: 230px;
+		height: 36px;
+		margin-top: 12%;
+	}
+	/* Centrado Vertical */
+	.centrado {
+		display: flex !important;
+		align-items: center !important;
+		justify-content: center !important;
+	}
+	/* Estilo para informacion sobre iniciar sesion */
+	.log {
+		color: gray;
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.log b{
+		color: #ffff;
+	}
+/* Estilo de letra en general */
+.word span{
+	color: #ffff !important;
+	font-family: 'Manrope', sans-serif;
+}
+/* Vista Login */
+.logo {
+	position: relative;
+	width: 250px;
+	height: 125px;
+}
+.ajuste {
+	padding-top: 10%;
+}

@@ -1,0 +1,61 @@
+<!-- Vista de Registro -->
+<div class="container fondo">
+
+	<div class="row">
+		<div class="col titulo word text-center">
+			<!-- Titulo -->
+			<span>Regístrate</span>
+		</div>
+	</div>
+
+	<div class="row info word">
+		<div class="col text-center">
+			<!-- Subtitulo -->
+			<span>USUARIO</span>
+			<!-- Input para usuario -->
+			<input type="text" name="" placeholder="......." class="input text-center" ng-model="user.nombre">
+		</div>
+	</div>
+
+	<div class="row info word mail">
+		<div class="col text-center">
+			<!-- Subtitulo -->
+			<span>CORREO</span>
+			<!-- Input para correo electronico -->
+			<input type="email" name="" placeholder="......." class="input text-center" ng-model="user.email">
+		</div>
+	</div>
+
+	<div class="row info word mail">
+		<div class="col text-center">
+			<!-- subtitulo -->
+			<span>CONTRASEÑA</span>
+			<!-- input para contraseña -->
+			<input type="password" name="" placeholder="......." class="input text-center" ng-model="user.contra">
+		</div>
+	</div>
+
+	<div class="row info word mail">
+		<div class="col text-center">
+			<!-- subtitulo -->
+			<span>CONFIRMAR CONTRASEÑA</span>
+			<!-- input para confirmar contraseña -->
+			<input type="password" name="" placeholder="......." class="input text-center" ng-model="confir.contra">
+		</div>
+	</div>
+
+	<div class="row centrado">
+		<div class="col centrado">
+			<!-- boton para guardar datos -->
+			<div class="boton word" ng-click="obtener(user)"><span>Continuar</span></div>
+		</div>
+	</div>
+
+	<div class="row espacio">
+		<div class="col">
+			<!-- Informacion sobre iniciar sesion -->
+			<span class="log">¿Ya tienes una cuenta? &nbsp <b ui-sref="login">Iniciar</b> </span>
+		</div>
+	</div>
+
+</div>

@@ -13,6 +13,20 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 		controller:"tutorialCtrl"
 	})
 
+	//Estado Vista de Registro
+	.state("register",{
+		url:"/register",
+		templateUrl:"templates/register.html",
+		controller:"registerCtrl"
+	})
+
+	//Estado Vista de Login
+	.state("login",{
+		url:"/login",
+		templateUrl:"templates/login.html",
+		controller:"loginCtrl"
+	})
+
 	// Url de la vista tutorial
 	$urlRouterProvider.otherwise('/tutorial');
 

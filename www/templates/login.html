@@ -1,0 +1,45 @@
+<!-- Vista de Login -->
+<div class="container fondo">
+
+	<div class="row centrado ajuste">
+		<div class="col centrado">
+			<!-- Logo de la empresa -->
+			<img src="img/logo.png" class="logo">
+		</div>
+	</div>
+
+	<div class="row info word mail">
+		<div class="col text-center">
+			<!-- subtitulo -->
+			<span>CORREO</span>
+			<!-- input para correo electronico -->
+			<input type="email" name="" placeholder="E M A I L" class="input text-center" ng-model="userL.email">
+		</div>
+	</div>
+
+	<div class="row info word mail">
+		<div class="col text-center">
+			<!-- subtitulo -->
+			<span>CONTRASEÑA</span>
+			<!-- input para contraseña -->
+			<input type="password" name="" placeholder="C O N T R A S E Ñ A" class="input text-center" ng-model="userL.password">
+		</div>
+	</div>
+
+	<div class="row centrado">
+		<div class="col centrado">
+			<!-- boton para iniciar sesion -->
+			<div class="boton word" ng-click="Inicio(userL)">
+				<span>Iniciar</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="row espacio">
+		<div class="col">
+			<!-- informacion para crear cuenta o registrarse -->
+			<span class="log">¿Aún no tienes cuenta? &nbsp <b ui-sref="register"> Registrate </b> </span>
+		</div>
+	</div>
+	
+</div>
