@@ -1,1 +1,63 @@
 /* Empty. Add your own CSS if you like */
+
+/* Vista Principal tutorial*/
+.BackgroundTutorial {
+	background: url("../img/OpenShop.jpg")center no-repeat;
+	background-size: cover;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+	-moz-background-size:cover;
+	height: 70%;
+	font-family: 'Manrope', sans-serif;
+}
+
+.Contenedor {
+	padding-top: 27%;
+}
+
+.letra span{
+	color: #ffff !important;
+
+}
+
+.tutorial {
+	background-color: #FFFF;
+	margin-top: 550px;
+	color: #E4E4E4;
+	font-size: 20px;
+}
+.tutorial h3{
+	color: #E4E4E4;
+}
+.tutorial h1{
+	font-size: 25px;
+}
+
+.Center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.R1 {
+	position: absolute;
+	left: 75%;
+}
+
+.R2 {
+	position: absolute;
+	left: 75%;
+	top: 55%;
+}
+
+.R3 {
+	position: absolute;
+	left: 75%;
+	top: 55%;
+}
+
+.P1 {
+	padding: 10%;
+}
+
+

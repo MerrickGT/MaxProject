@@ -1,3 +1,7 @@
 angular.module('starter.controllers', [])
 
-//Create your controllers here
+
+//Controlador de la vista Tutorial
+.controller("tutorialCtrl",function($scope){
+
+});
